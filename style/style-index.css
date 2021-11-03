@@ -1,0 +1,165 @@
+body {
+    background-color: rgb(121, 121, 121);
+}
+
+header {
+    background: url('../img/bg.jpg');
+    padding: 15px;
+}
+
+header img {
+    display: inline;
+    border-radius: 50%;
+    margin: auto 30px auto;
+}
+
+.info-pessoal {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+.info-pessoal ul{
+    margin: 0 10px;
+}
+
+.info-pessoal li{
+    display: block;
+    text-align: right;
+    color: azure;
+}
+
+nav ul{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 10px 0 0;
+    background-color: azure;
+    padding: 10px;
+    box-shadow: rgba(0,0,0,0.7) 5px 5px 10px
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    width: 940px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.mainIndex {
+    height: 273px;
+}
+
+main h1{
+    text-align: center;
+    margin: 10px;
+    color: azure;
+    font-size: 3em;
+}
+
+main p{
+    text-align: justify;
+    margin: 10px;
+}
+
+.trabalhos {
+    text-align: justify;
+    background-color: rgb(128, 128, 128);
+    padding: 20px;
+    margin: 30px 0 20px 0;
+    box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+}
+
+.trabalhos h2{
+    font-weight: bold;
+    margin: 0px 0 15px 0;
+}
+
+.trabalhos p{
+    padding: 0;
+    margin: 2px;
+}
+
+.periodo {    
+    font-size: 0.9em;
+    font-style: italic;
+    color: rgb(31, 31, 31);
+}
+
+.atividades{
+    margin: 10px 0 0 15px;
+}
+
+.atividades li{
+    margin: 10px 0 0 0;
+}
+
+.formacoes li, .habilidades li, .competencias li{
+    text-align: justify;
+    margin: 30px;
+}
+
+.carta {
+    margin: 15px;
+    text-align: center;
+    /* border: 4px solid #000000; */
+    padding: 2px 0 2px 2px;
+    display: inline-block;
+    background: rgb(128, 128, 128);
+    box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+}
+
+.carta h2{
+    text-align: justify;
+    /* border: 2px solid #6b6b6b; */
+    margin: 10px;
+    padding: 10PX 5px;
+    width: 300px;
+    background: rgb(143, 143, 143);
+}
+
+.carta img{
+    width: 75%;
+    /* border: 3px solid #6b6b6b; */
+}
+
+.carta p {
+    /* border: 2px solid #6b6b6b; */
+    padding: 8px;
+    margin: 10px;
+    height: 100px;
+    width: 305px;
+    background: rgb(143, 143, 143);
+}
+
+footer {
+    text-align: center;
+    background: url('../img/bg.jpg');
+    padding: 40px 0;
+}
+
+footer h1{
+    color: rgb(199, 199, 199);
+    font-size: 2em;
+}
+
+.info-atual {
+    display: inline-block;
+    color: rgb(153, 153, 153);
+}
+
+.info-atual img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 30px;
+    color: aliceblue;
+}
